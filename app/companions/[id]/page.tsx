@@ -19,7 +19,7 @@ const CompanionSession = async ({ params }: CompanionSessionPageProps) => {
       // Optionally log or handle the error
       redirect('/companions'); // or show a 404 page
     }
-    const { name, subject, title, topic, duration } = companion;
+    const { name, subject, topic, duration } = companion;
     
 
     if(!user) redirect('/sign-in');

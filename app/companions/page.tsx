@@ -2,7 +2,11 @@
 function CompanionsLibrary() {
   return (
    <>
-   <h1>Companions</h1>
+  <main>
+    <section className="flex justify-between gap-4 max-sm:flex-col">
+<h1>COMpanions Library</h1>
+    </section>
+  </main>
    </>
   )
 }
